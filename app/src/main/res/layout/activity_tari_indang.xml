@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TariIndang"
+    android:background="@drawable/tari_indang">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="650dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/teks11"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:paddingLeft="10dp"
+                android:text="Tari Indang berasal dari daerah Pariaman khususnya suku Minangkabau. Kata ‘indang’ dalam nama tari ini berasal dari bahasa Minang yang memiliki arti sebuah rebana kecil. Adapun nama lain dari tari indang adalah tari dindin badindin.
+Pada awalnya, tarian indang ini ada sebagai sebuah sarana guna mengembangkan ajaran agama Islam pada masyarakat Minang. Tarian ini juga memiliki fungsi tersendiri untuk pengisian kebutuhan rohani seseorang.
+Seiring berjalannya waktu, tarian ini terus berkembang dan dikenal oleh banyak kalangan. Tarian indang pun dijaga dan dilestarikan keseniannya di tanah Pariaman.
+Tarian tradisional ini juga merepresentasikan tentang masyarakat Padang Pariaman yang sangat bersahaja. Mereka juga saling menghormati dan patuh pada perintah Tuhan Yang Maha Esa. Jika pada mulanya tarian ini hanya untuk media dakwah, maka seiring dengan berjalannya waktu, fungsi tarian ini pun beralih menjadi tarian untuk hiburan juga."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                tools:ignore="TextSizeCheck" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/button_back11"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/back_button" />
+
+    </RelativeLayout>
+</ScrollView>

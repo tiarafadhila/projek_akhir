@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TariZapin"
+    android:background="@drawable/tari_zapin">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="650dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/teks22"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:paddingLeft="10dp"
+                android:text="Tarian dari Riau bernama zapin pada awalnya diinspirasikan seorang keturunan Arab yang berasal dari Yaman dan dibawa pedagang pada awal abad ke-16. Tarian Riau ini bersifat edukatif sekaligus menghibur yang dipakai sebagai media dakwah Islami lewat syair lagu zapin yang didendangkan.
+Tarian ini terkenal dalam 2 jenis yakni zapin arab yang sudah mengalami perubahan dan hanya dikenal dengan satu gaya serta zapin melayu yang ditumbuhkan para ahli vokal dan disesuaikan dengan lingkungan masyarakat serta ada banyak gaya yang bervariasi.
+Pada bagian awal dan akhir tarian akan memperlihatkan gerakan seperti salam dan tidak boleh menggoyangkan pinggul serta tidak boleh mengangkat kaki terlalu tinggi yang dibawakan oleh penari wanita memakai busana kebaya panjang atau baju kurung laboh dan penari pria yang memakai baju kurung cekak musang atau teluk belanga."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                tools:ignore="TextSizeCheck" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/button_back22"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/back_button" />
+
+    </RelativeLayout>
+</ScrollView>

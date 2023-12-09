@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TariReogPonorogo"
+    android:background="@drawable/tari_reog">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="650dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/teks4"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:paddingLeft="10dp"
+                android:text="Reog Ponorogo adalah tari tradisional yang berasal dari daerah Barat-Laut Provinsi Jawa Timur dan Ponorogo.
+Kata “reog” sendiri berasa dari kata “riyokun” yang artinya khusnul khotimah.
+Tarian yang terkenal dengan Singo Barongnya ini dinilai masih kental dengan ilmu kebatinan dan hal-hal mistis lainnya.
+Topeng ini menampilkan singa sebagai simbol Raja Kertabumi dan bulu-bulu merak raksasa tertancap yang dapat ditafsirkan sebagai pengaruh kuat Tiongkok terhadap kekuasaan raja.
+Lalu ada pula simbol kekuatan kerajaan Majapahit yang direpresentasikan melalui jathilan yang diperankan penari gemblak yang menunggang kuda.
+Kemudian ada warok sebagai simbol Ki Ageng Kutu yang digambarkan melalui orang bertopeng badut merah yang menopang beban berat topeng Singa Barong sendirian."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                tools:ignore="TextSizeCheck" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/button_back4"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/back_button" />
+
+    </RelativeLayout>
+</ScrollView>

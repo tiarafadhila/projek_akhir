@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TariSeudati"
+    android:background="@drawable/tari_seudati">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="650dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/teks55"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:paddingLeft="10dp"
+                android:text="Tari Seudati merupakan salah satu tarian tradisional yang berasal dari Aceh. Walaupun sama-sama berasal dari Aceh, tapi tari Saman dan tari Seudati mempunyai perbedaan di gerakan dasar tariannya. Dimana tari Saman dilakukan dengan posisi duduk. Sementara tari Seudati dilakukan dengan posisi berdiri.
+Tari Seudati merupakan tarian khas Aceh yang sudah terkenal di seluruh wilayah Indonesia bahkan luar negeri. Tari ini mengusung tema dan makna terkait keteguhan, semangat dan juga jiwa kepahlawanan dari seorang pria Aceh.Awal perkembangan tari ini, dulu hanya dijadikan sebagai sarana penyebaran dakwah Agama Islam yang dilakukan di tanah rencong. Hal tersebut dapat dibuktikan dengan adanya syair di dalam tarian Seudati yang menceritakan tentang ajaran dan juga nilai-nilai Islam."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                tools:ignore="TextSizeCheck" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/button_back55"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/back_button" />
+
+    </RelativeLayout>
+</ScrollView>

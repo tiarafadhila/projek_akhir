@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TariPersembahan"
+    android:background="@drawable/tari_persembahan">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="650dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/teks2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:paddingLeft="10dp"
+                android:text="Tarian Persembahan adalah kesenian asal provinsi Riau. Biasanya, tarian ini dibawakan oleh lima hingga paling banyak sepuluh penari yang merupakan remaja perempuan.
+Sebutan lain dari tarian ini adalah tari Makan Sirih, dikarenakan adegan utama yang membuatnya diingat oleh masyarakat yaitu ketika penari memberikan daun sirih kepada tamu untuk dimakan.
+Bagi masyarakat Riau, sirih memiliki makna tersendiri yakni sebagai lambang penghormatan terhadap orang lain. Selain itu, sirih juga bermakna sebagai perekat dalam sebuah pergaulan. Dengan menarikannya, masyarakat Riau berusaha menyampaikan pesan bahwa manusia sebenarnya membutuhkan satu sama lain.
+Kata persembahan sendiri mengandung makna yang sama persis dengan kata tersebut, yakni sebagai persembahan bagi tamu yang hadir di Riau. Penampilan tarian ini menjadi tradisi ikonik Riau yang ditampilkan di permulaan sebuah acara."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                tools:ignore="TextSizeCheck" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/button_back2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/back_button" />
+
+    </RelativeLayout>
+</ScrollView>

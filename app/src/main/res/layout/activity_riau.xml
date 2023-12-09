@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Riau"
+    android:background="@drawable/tari_riau">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="80dp"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:layout_centerHorizontal="true"
+                android:text="Tari Persembahan"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:width="200dp"
+                android:layout_marginLeft="130dp"
+                android:id="@+id/tari_persembahan"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:layout_centerHorizontal="true"
+                android:text="Tari Zapin"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"
+                android:layout_marginTop="70dp"
+                android:width="200dp"
+                android:layout_marginLeft="130dp"
+                android:id="@+id/tari_zapin"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/back_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/back_button" />
+
+    </RelativeLayout>
+
+</ScrollView>

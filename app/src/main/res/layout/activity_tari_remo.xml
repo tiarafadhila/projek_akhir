@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TariRemo"
+    android:background="@drawable/tari_remo">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="650dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/teks44"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:paddingLeft="10dp"
+                android:text="Tari remo merupakan salah satu tari kesenian yang berasal dari daerah Jawa Timur yaitu Jombang. Tari tradisional satu ini adalah tarian yang dipentaskan untuk menyambut tamu-tamu dan ditampilkan secara perorangan maupun secara berkelompok.
+Dalam perkembangannya, tari ini lebih sering dipentaskan oleh penari perempuan, sehingga akhirnya memunculkan gaya tarian yang cukup bervariasi seperti remo putri atau tari ini dengan gaya perempuan dan banci.
+Terdapat akar filosofis yang ada dalam gerakan tari ini, yaitu gedruk yang memiliki penjelasan bahwa masing-masing insan yang ada di bumi harus memiliki suatu kesadaran diri atas setiap kehidupan yang ada di muka bumi ini."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                tools:ignore="TextSizeCheck" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/button_back44"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/back_button" />
+
+    </RelativeLayout>
+</ScrollView>

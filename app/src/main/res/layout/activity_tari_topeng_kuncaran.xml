@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TariTopengKuncaran"
+    android:background="@drawable/tari_kuncaran">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="650dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/teks33"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:paddingLeft="10dp"
+                android:text="Tari Topeng Kuncaran merupakan seni tari tradisional dari Sunda, Jawa Barat. Sesuai dengan namanya, tarian ini dibawakan oleh para penari yang mengenakan topeng pada bagian wajahnya.
+Sebagai salah satu tari tradisional, Tari Topeng Kuncaran sangat kental dengan kebudayaan Jawa Barat. Hal ini bisa dilihat dari penggunaan alat musik dan busana yang dikenakan oleh para penarinya.
+Asal usul Tari Topeng Kuncaran sebenarnya merupakan bentuk pengembangan kesenian tari topeng dari Jakarta. Kemudian tari topeng ini dikembangkan sesuai dengan adat dan nilai tradisional di Sunda Jawa Barat. Tari Topeng Kuncaran hingga saat ini masih sering ditampilkan dalam berbagai acara kebudayaan, seperti pentas, pagelaran ataupun acara resmi lainnya."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                tools:ignore="TextSizeCheck" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/button_back33"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/back_button" />
+
+    </RelativeLayout>
+</ScrollView>
