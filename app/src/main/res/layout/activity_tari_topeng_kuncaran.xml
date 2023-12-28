@@ -23,6 +23,7 @@
                 android:id="@+id/teks33"
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
+                android:gravity="center_horizontal"
                 android:paddingLeft="10dp"
                 android:text="Tari Topeng Kuncaran merupakan seni tari tradisional dari Sunda, Jawa Barat. Sesuai dengan namanya, tarian ini dibawakan oleh para penari yang mengenakan topeng pada bagian wajahnya.
 Sebagai salah satu tari tradisional, Tari Topeng Kuncaran sangat kental dengan kebudayaan Jawa Barat. Hal ini bisa dilihat dari penggunaan alat musik dan busana yang dikenakan oleh para penarinya.

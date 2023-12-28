@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,61 +9,55 @@
     tools:ignore="SpeakableTextPresentCheck"
     android:background="@drawable/background_profil">
 
-    <RelativeLayout
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="60dp"
+         android:background="@drawable/button_shape"
+         android:layout_centerHorizontal="true"
+         android:text="Edit Profile"
+         android:fontFamily="sans-serif"
+         android:textColor="@color/black"
+         android:layout_marginTop="350dp"
+         android:width="150dp"
+         android:layout_marginLeft="260dp"
+         android:id="@+id/edit_profile"/>
+
+    <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="60dp"
+        android:background="@drawable/button_shape"
+        android:layout_centerHorizontal="true"
+        android:text="Log Out"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:layout_marginTop="450dp"
+        android:width="150dp"
+        android:layout_marginLeft="260dp"
+        android:id="@+id/logout"/>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:background="@drawable/button_shape"
-            android:layout_centerHorizontal="true"
-            android:text="Edit Profile"
-            android:fontFamily="sans-serif"
-            android:textColor="@color/black"
-            android:layout_marginTop="350dp"
-            android:width="150dp"
-            android:layout_marginLeft="260dp"
-            android:id="@+id/edit_profile"/>
+    <ImageView
+        android:id="@+id/profile_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="700dp"
+        android:layout_marginRight="330dp"
+        android:src="@drawable/profil" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:background="@drawable/button_shape"
-            android:layout_centerHorizontal="true"
-            android:text="Log Out"
-            android:fontFamily="sans-serif"
-            android:textColor="@color/black"
-            android:layout_marginTop="450dp"
-            android:width="150dp"
-            android:layout_marginLeft="260dp"
-            android:id="@+id/logout"/>
+    <ImageView
+        android:id="@+id/kategori_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="700dp"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/kategori" />
 
-        <ImageView
-            android:id="@+id/profile_button1"
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="690dp"
-            android:layout_marginRight="330dp"
-            android:src="@drawable/profil" />
+    <ImageView
+        android:id="@+id/home_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginTop="730dp"
+        android:src="@drawable/home" />
 
-        <ImageView
-            android:id="@+id/kategori_button1"
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:layout_marginLeft="330dp"
-            android:layout_marginTop="690dp"
-            android:layout_marginRight="50dp"
-            android:src="@drawable/kategori" />
-
-        <ImageView
-            android:id="@+id/home_button1"
-            android:layout_width="wrap_content"
-            android:layout_height="15dp"
-            android:layout_marginTop="730dp"
-            android:src="@drawable/home" />
-
-    </RelativeLayout>
-
-</ScrollView>
+</RelativeLayout>

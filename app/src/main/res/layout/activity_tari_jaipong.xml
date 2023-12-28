@@ -23,6 +23,7 @@
                 android:id="@+id/teks3"
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
+                android:gravity="center_horizontal"
                 android:paddingLeft="10dp"
                 android:text="Tari Jaipong merupakan sebuah tarian tradisional yang berasal dari daerah Karawang, Jawa Barat. Tarian ini berkembang di era tahun 1960 an. Awalnya tari ini dikenal masyarakat dengan nama Tari Banjet. Sebuah pertunjukan kesenian tari yang ditampilkan dengan gerakan tari dan diiringi alunan musik berupa instrumen gamelan.
 Dulu tarian ini dijadikan sebagai hiburan bagi masyarakat. Tarian jaipong adalah sebuah inovasi yang dibuat oleh seorang seniman yang berasal dari daerah Karawang bernama H. Suanda.

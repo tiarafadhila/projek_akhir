@@ -23,6 +23,7 @@
                 android:id="@+id/teks4"
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
+                android:gravity="center_horizontal"
                 android:paddingLeft="10dp"
                 android:text="Reog Ponorogo adalah tari tradisional yang berasal dari daerah Barat-Laut Provinsi Jawa Timur dan Ponorogo.
 Kata “reog” sendiri berasa dari kata “riyokun” yang artinya khusnul khotimah.

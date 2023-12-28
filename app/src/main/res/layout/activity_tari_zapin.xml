@@ -23,6 +23,7 @@
                 android:id="@+id/teks22"
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
+                android:gravity="center_horizontal"
                 android:paddingLeft="10dp"
                 android:text="Tarian dari Riau bernama zapin pada awalnya diinspirasikan seorang keturunan Arab yang berasal dari Yaman dan dibawa pedagang pada awal abad ke-16. Tarian Riau ini bersifat edukatif sekaligus menghibur yang dipakai sebagai media dakwah Islami lewat syair lagu zapin yang didendangkan.
 Tarian ini terkenal dalam 2 jenis yakni zapin arab yang sudah mengalami perubahan dan hanya dikenal dengan satu gaya serta zapin melayu yang ditumbuhkan para ahli vokal dan disesuaikan dengan lingkungan masyarakat serta ada banyak gaya yang bervariasi.

@@ -23,6 +23,7 @@
                 android:id="@+id/teks1"
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
+                android:gravity="center_horizontal"
                 android:paddingLeft="10dp"
                 android:text="Tari piring berasal dari Solok, Sumatera Barat. Tari piring adalah tarian tradisional Minangkabau yang menampilkan atraksi menggunakan piring. Para penari mengayunkan piring di tangan mengikuti gerakan-gerakan cepat yang teratur, tanpa satu pun piring terlepas dari tangan. Gerakannya diambil dari langkah dalam silat Minangkabau atau silek.
 Asal-usul Tari Piring ini sebagai bentuk pemujaan terhadap Dewi Padi dan dipentaskan ketika musim panen tiba. Pementasan Tari Piring digelar sebagai bentuk terima kasih kepada Dewi Padi atas hasil panen yang berlimpah.

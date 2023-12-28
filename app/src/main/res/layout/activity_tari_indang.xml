@@ -23,6 +23,7 @@
                 android:id="@+id/teks11"
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
+                android:gravity="center_horizontal"
                 android:paddingLeft="10dp"
                 android:text="Tari Indang berasal dari daerah Pariaman khususnya suku Minangkabau. Kata ‘indang’ dalam nama tari ini berasal dari bahasa Minang yang memiliki arti sebuah rebana kecil. Adapun nama lain dari tari indang adalah tari dindin badindin.
 Pada awalnya, tarian indang ini ada sebagai sebuah sarana guna mengembangkan ajaran agama Islam pada masyarakat Minang. Tarian ini juga memiliki fungsi tersendiri untuk pengisian kebutuhan rohani seseorang.
@@ -35,7 +36,7 @@ Tarian tradisional ini juga merepresentasikan tentang masyarakat Padang Pariaman
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/button_back11"
+            android:id="@+id/button_back111"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_marginTop="5dp"

@@ -23,6 +23,7 @@
                 android:id="@+id/teks2"
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
+                android:gravity="center_horizontal"
                 android:paddingLeft="10dp"
                 android:text="Tarian Persembahan adalah kesenian asal provinsi Riau. Biasanya, tarian ini dibawakan oleh lima hingga paling banyak sepuluh penari yang merupakan remaja perempuan.
 Sebutan lain dari tarian ini adalah tari Makan Sirih, dikarenakan adegan utama yang membuatnya diingat oleh masyarakat yaitu ketika penari memberikan daun sirih kepada tamu untuk dimakan.

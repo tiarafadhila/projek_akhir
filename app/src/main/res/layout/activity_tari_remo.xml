@@ -23,6 +23,7 @@
                 android:id="@+id/teks44"
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
+                android:gravity="center_horizontal"
                 android:paddingLeft="10dp"
                 android:text="Tari remo merupakan salah satu tari kesenian yang berasal dari daerah Jawa Timur yaitu Jombang. Tari tradisional satu ini adalah tarian yang dipentaskan untuk menyambut tamu-tamu dan ditampilkan secara perorangan maupun secara berkelompok.
 Dalam perkembangannya, tari ini lebih sering dipentaskan oleh penari perempuan, sehingga akhirnya memunculkan gaya tarian yang cukup bervariasi seperti remo putri atau tari ini dengan gaya perempuan dan banci.
